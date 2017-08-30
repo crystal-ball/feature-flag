@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "build": "npm run build:cjs && npm run build:es",
     "build:cjs": "BABEL_ENV=cjs babel modules -d . --ignore __tests__",
     "build:es": "BABEL_ENV=es babel modules -d es --ignore __tests__",
     "clean": "git clean -fdX ."
@@ -34,8 +35,6 @@
     "prop-types": "^15.5.10"
   },
   "jest": {
-    "setupFiles": [
-      "jest-localstorage-mock"
-    ]
+    "setupFiles": ["jest-localstorage-mock"]
   }
 }
