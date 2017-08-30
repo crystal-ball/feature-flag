@@ -1,0 +1,9 @@
+{
+  "extends": "@crystal-ball/eloquence/javascript",
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0
+  }
+}
