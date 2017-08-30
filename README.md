@@ -2,9 +2,9 @@
 [feature-flag](https://github.com/crystal-ball/feature-flag) is a feature flag component for React.
 
 A `<FeatureFlag>` component will render any child components if the passed `path`
-property is enabled in a feature flags object passed to the `setupFlags` function.
-The feature flags object could be stored in object in separate javascript file, 
-a json file, or returned from an api request.
+property is enabled in a feature flag object passed to the `setupFlags` function.
+The feature flag object could be stored in an object in a separate javascript
+file, a json file, or returned from an api request.
 
 ## Installation
 
