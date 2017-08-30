@@ -29,14 +29,14 @@ import React, { Component } from 'react';
 import { setupFlags, FeatureFlag } from '@crystal-ball/feature-flag';
 
 setupFlags({
-  someFeatureEnabled: true
+  someFeature: true
 });
 
 class App extends Component {
   render() {
     return (
       <div>
-        <FeatureFlag path="someFeatureEnabled">
+        <FeatureFlag path="someFeature">
           <div>Your cool feature</div>
         </FeatureFlag>
       </div>
@@ -46,7 +46,7 @@ class App extends Component {
 ```
 
 In the developer console you can enable any of the features you've defined by
-executing `window.enableFeature('someFeatureEnabled')` and refresh the page. Since
+executing `window.enableFeature('someFeature')` and refresh the page. Since
 all of the flags are stored in localStorage, clear your cache or your
 localStorage to reset the app back to the original feature flag configuration
 passed to `setupFlags`.
