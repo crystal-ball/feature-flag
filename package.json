@@ -36,5 +36,13 @@
   },
   "jest": {
     "setupFiles": ["jest-localstorage-mock"]
-  }
+  },
+  "files": [
+    "es",
+    "config.js",
+    "FeatureFlag.js",
+    "index.js",
+    "localStorage.js",
+    "setupFlags.js"
+  ]
 }
