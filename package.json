@@ -1,5 +1,5 @@
 {
-  "name": "feature-flag",
+  "name": "@crystal-ball/feature-flag",
   "version": "1.0.0",
   "description": "Simple React component for feature flags",
   "main": "index.js",
